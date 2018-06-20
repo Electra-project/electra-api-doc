@@ -2,7 +2,7 @@
 title: /transaction
 # position: 1.0
 type: post
-description: Broadcast a signed transction to the main.
+description: Post a new transaction.
 
 parameters:
   - name: hash
