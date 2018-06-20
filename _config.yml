@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: Electra API
+description: Electra API documentation.
+url: https://electra-api-doc.herokuapp.com
 google_analytics_key:
 permalink: pretty
 
@@ -13,12 +13,12 @@ permalink: pretty
 timezone: Etc/UTC
 
 collections:
-  documentation:
-    title: Documentation
-    position: 1
+  # documentation:
+  #   title: Documentation
+  #   position: 1
   api:
     title: APIs
-    position: 2
+    position: 1
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
