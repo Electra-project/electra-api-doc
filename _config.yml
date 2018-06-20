@@ -13,12 +13,15 @@ permalink: pretty
 timezone: Etc/UTC
 
 collections:
-  # documentation:
-  #   title: Documentation
-  #   position: 1
-  api:
-    title: APIs
+  documentation:
+    title: Documentation
     position: 1
+  address:
+    title: Addresses
+    position: 2
+  transaction:
+    title: Transactions
+    position: 3
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
