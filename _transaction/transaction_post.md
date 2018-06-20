@@ -15,7 +15,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -d '{"hash":"REPLACE_BY_A_SIGNED_TRANSACTION_HEX", "key2":"value2"}' -X POST https://api.electraproject.org/transaction
+      curl -d '{"hash":"REPLACE_BY_A_SIGNED_TRANSACTION_HEX"}' -X POST https://api.electraproject.org/transaction
     title: curl
     language: bash
 
