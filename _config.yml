@@ -24,8 +24,10 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - readme.md
   - LICENSE
+  - README.md
+  # https://github.com/jekyll/jekyll/issues/2938#issuecomment-56237068
+  - vendor
 
 defaults:
   -
