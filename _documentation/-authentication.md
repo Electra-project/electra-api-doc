@@ -9,11 +9,11 @@ content_markdown: |-
   You can read the [Authentication Background](#documentation-authentication-background) to get a better understanding of
   the process.
 
-  The **first Purse account external address hash** is the username (ID) used in across any authenticated service
-  provided by the Electra Project.
+  **All the routes followed by an asterisk require an auhentication.**
   {: .info }
 
-  **All the routes followed by an asterisk require an auhentication.**
+  The **first Purse account external address hash** is the username (ID) used in across any authenticated service
+  provided by the Electra Project.
   {: .info }
 
   What is called a "User" in this documentation can be misleading since a "User" is in fact a "HD Wallet".
