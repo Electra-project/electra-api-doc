@@ -2,7 +2,7 @@
 title: /seller/payment *
 position: 5
 type: post
-description: Generate a new transaction linked to the user seller account.
+description: Generate a new payment linked to the user seller account.
 
 parameters:
   - name: amount
@@ -11,7 +11,7 @@ parameters:
       <em>Mandatory.</em>
 
 content_markdown: |-
-  Returns the new transaction information. This will generate a unique address for each transaction.
+  Returns the new payment information. This will generate a unique address for each payment.
 
 left_code_blocks:
   - code_block: |-
