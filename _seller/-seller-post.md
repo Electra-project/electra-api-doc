@@ -15,7 +15,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -d '{"sellerAccountPrivateKeyX": "CIPHERED_SELLER_ACCOUNT_PRIVATE_KEY"}' -X POST https://api.electraproject.org/seller
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -d '{"sellerAccountPrivateKeyX": "CIPHERED_SELLER_ACCOUNT_PRIVATE_KEY"}' -X POST https://api.electraproject.org/seller
     title: curl
     language: bash
 
