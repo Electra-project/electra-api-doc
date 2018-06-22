@@ -14,9 +14,9 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-    curl https://api.electraproject.org/address/EHFF1iKaqK2bY81SghZz6YxQTKgx47JjDE -I -H "X-Version: 1.0"
-    HTTP/1.1 200 OK
-    X-Version: v1.0
+      curl https://api.electraproject.org/address/EHFF1iKaqK2bY81SghZz6YxQTKgx47JjDE -I -H "X-Version: 1.0"
+      HTTP/1.1 200 OK
+      X-Version: v1.0
     title: curl
     language: bash
 
