@@ -1,6 +1,6 @@
 ---
 title: /seller/payment/:sellerAddressHash *
-position: 5
+position: 4
 type: post
 description: Get a seller transaction information.
 
