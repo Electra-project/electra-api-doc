@@ -10,8 +10,8 @@ content_markdown: |-
 
   To cipher the CA Seller account private key, you need to:
   1. Get use the `token` provided by the `GET /user` route response body.
-  2. Hash this token using SHA-3-256 to generate a `key`.
-  3. Cipher the CA Seller Account (`m/$44'/0'/3`) private key hexaecimal string with this `key` using AES-256 ECB.
+  2. Hash this token using **SHA-3-256** to generate a `key`.
+  3. Cipher the CA Seller Account (`m/$44'/0'/3`) private key hexaecimal string with this `key` using **AES-256-ECB**.
 
 left_code_blocks:
   - code_block: |-
