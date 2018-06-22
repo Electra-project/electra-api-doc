@@ -18,6 +18,7 @@ right_code_blocks:
       {
         "data": {
           "sellerHash": "ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL",
+          "isActivated": true,
           "company": "Support Ninjas Inc.",
           "addressL1": "19 Manor Station St.",
           "addressL2": "",
