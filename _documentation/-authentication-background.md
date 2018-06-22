@@ -2,10 +2,6 @@
 title: Authentication Background
 position: 6
 
-parameters:
-  - name:
-    content:
-
 content_markdown: |-
   In the EIP-0001, we take advantage of the Hierarchical Deterministic Wallet addresses generation to define 4 accounts category:
   - Purse
@@ -57,9 +53,4 @@ left_code_blocks:
       console.log('Private Key', sellerAccountFifthAddressChange.keyPair.toWIF())
     title: bitcoinjs-lib
     language: javascript
-
-right_code_blocks:
-  - code_block:
-    title:
-    language:
 ---
