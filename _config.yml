@@ -22,6 +22,9 @@ collections:
   transaction:
     title: Transactions
     position: 3
+  user:
+    title: User
+    position: 4
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
