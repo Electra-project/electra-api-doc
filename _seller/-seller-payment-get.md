@@ -1,5 +1,5 @@
 ---
-title: /seller/transaction/:sellerAddressHash *
+title: /seller/payment/:sellerAddressHash *
 position: 5
 type: post
 description: Get a seller transaction information.
@@ -20,7 +20,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/seller/transaction/ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/seller/payment/ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL
     title: curl
     language: bash
 
