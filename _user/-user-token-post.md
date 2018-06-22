@@ -4,10 +4,6 @@ position: 4
 type: post
 description: Create a new BAA token for this user (= HD wallet).
 
-# parameters:
-#   - name:
-#     content:
-
 content_markdown: |-
   Create a new challenge mnemonic to initiate a Basic Access Authentication process.
 
