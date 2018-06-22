@@ -1,6 +1,6 @@
 ---
 title: /user/:purseHash/token
-position: 4
+position: 5
 type: post
 description: Create a new BAA token for this user (= HD wallet).
 
