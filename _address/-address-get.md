@@ -20,8 +20,10 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "hash": "EHFF1iKaqK2bY81SghZz6YxQTKgx47JjDE",
-        "balance": 0.16776000
+        "data": {
+          "hash": "EHFF1iKaqK2bY81SghZz6YxQTKgx47JjDE",
+          "balance": 0.16776000
+        }
       }
     title: Response
     language: json
