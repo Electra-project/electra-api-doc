@@ -9,7 +9,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -d '{"company":"Support Ninjas Inc.","addressL1":"19 Manor Station St.","addressL2":"","addressL3":"","code":"95820","city":"Sacramento","area":"2018-06-22T09:37:13.204Z","country":"2018-06-22T09:37:13.204Z","email":"contact@example.com","website":"https://example.com"}' -X PUT https://api.electraproject.org/seller
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -d '{"company":"Support Ninjas Inc.","addressL1":"19 Manor Station St.","addressL2":"","addressL3":"","code":"95820","city":"Sacramento","area":"2018-06-22T09:37:13.204Z","country":"2018-06-22T09:37:13.204Z","email":"contact@example.com","website":"https://example.com"}' -X PUT https://api.electraproject.org/seller
     title: curl
     language: bash
 
