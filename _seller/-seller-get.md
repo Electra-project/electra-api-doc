@@ -17,7 +17,6 @@ right_code_blocks:
   - code_block: |2-
       {
         "data": {
-          "lastSellerAccountAddressIndex": 31,
           "createdAt": "2018-06-22T09:37:13.204Z",
           "updatedAt": "2018-06-22T09:37:13.204Z"
         }
