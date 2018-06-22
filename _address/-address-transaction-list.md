@@ -13,6 +13,10 @@ parameters:
     content: |-
       Select only the transactions with at least 10 confirmations if set to `"1"`.<br>
       <em>Optional. Default to `"0"`.</em>
+  - name: onlyUnconfirmed
+    content: |-
+      Select only the transactions with less than 10 confirmations if set to `"1"`.<br>
+      <em>Optional. Default to `"0"`.</em>
   - name: onlyUnspent
     content: |-
       Select only the unspent transactions if set to `"1"`.<br>
