@@ -13,7 +13,7 @@ content_markdown: |-
   provided by the Electra Project.
   {: .info }
 
-  **All the routes followed by an asterisk** require an auhentication.
+  **All the routes followed by an asterisk require an auhentication.**
   {: .info }
 
   What is called a "User" in this documentation can be misleading since a "User" is in fact a "HD Wallet".
