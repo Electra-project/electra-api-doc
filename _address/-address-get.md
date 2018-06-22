@@ -4,10 +4,6 @@ title: /address/:hash
 type: get
 description: Get an address information.
 
-# parameters:
-#   - name:
-#     content:
-
 content_markdown: |-
   Returns a specific address information from Electra blockchain.
 
