@@ -18,7 +18,7 @@ right_code_blocks:
       {
         "data": {
           "sellerHash": "ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL",
-          "isActivated": true,
+          "feeRate": 0.005,
           "company": "Support Ninjas Inc.",
           "addressL1": "19 Manor Station St.",
           "addressL2": "",
@@ -29,6 +29,7 @@ right_code_blocks:
           "country": "2018-06-22T09:37:13.204Z",
           "email": "contact@example.com",
           "website": "https://example.com",
+          "isActivated": true,
           "createdAt": "2018-06-22T09:37:13.204Z",
           "updatedAt": "2018-06-22T09:37:13.204Z"
         }
