@@ -19,12 +19,15 @@ collections:
   address:
     title: Addresses
     position: 2
+  seller:
+    title: Sellers
+    position: 3
   transaction:
     title: Transactions
-    position: 3
+    position: 4
   user:
     title: Users
-    position: 4
+    position: 5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
