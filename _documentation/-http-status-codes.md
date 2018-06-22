@@ -2,10 +2,6 @@
 title: HTTP Status Codes
 position: 4
 
-parameters:
-  - name:
-    content:
-
 content_markdown: |-
   We are following strict conventions regarding the HTTP Status Codes that we send in our responses' headers. So we
   strongly suggest any developer using our API to take advantage of that in order to handle them accordingly.
@@ -35,14 +31,4 @@ content_markdown: |-
   If you request a list of entities and that this list is empty, you will not receive a `404` but a `2XX` status code
   with an empty list.
   {: .warning }
-
-left_code_blocks:
-  - code_block:
-    title:
-    language:
-
-right_code_blocks:
-  - code_block:
-    title:
-    language:
 ---
