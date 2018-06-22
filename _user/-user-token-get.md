@@ -1,6 +1,6 @@
 ---
 title: /user/:purseHash/token
-position: 3
+position: 4
 type: get
 description: Get the BAA token for this user (= HD wallet).
 
