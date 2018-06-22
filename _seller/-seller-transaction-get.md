@@ -1,5 +1,5 @@
 ---
-title: /seller/transaction/:transactionId *
+title: /seller/transaction/:sellerAddressHash *
 position: 5
 type: post
 description: Get a seller transaction information.
@@ -20,7 +20,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/seller/transaction/da78145f-2028-4eec-8009-5c9d9343d76d
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/seller/transaction/ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL
     title: curl
     language: bash
 
@@ -28,7 +28,6 @@ right_code_blocks:
   - code_block: |2-
       {
         "data": {
-          "id": "da78145f-2028-4eec-8009-5c9d9343d76d",
           "address": "ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL",
           "amount": 123.45678901,
           "fee": 0.61728394,
