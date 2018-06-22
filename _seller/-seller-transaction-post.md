@@ -1,7 +1,7 @@
 ---
 title: /seller/transaction *
 position: 4
-type: get
+type: post
 description: Generate a new transaction linked to the user seller account.
 
 content_markdown: |-
