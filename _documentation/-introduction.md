@@ -2,10 +2,6 @@
 title: Introduction
 position: 1
 
-parameters:
-  - name:
-    content:
-
 content_markdown: |-
   Welcome to our Electra RESTful API.
 
@@ -32,14 +28,4 @@ content_markdown: |-
   ```
 
   If you don't specify the `X-Version`, the latest stable version available will be used.
-
-left_code_blocks:
-  - code_block:
-    title:
-    language:
-
-right_code_blocks:
-  - code_block:
-    title:
-    language:
 ---
