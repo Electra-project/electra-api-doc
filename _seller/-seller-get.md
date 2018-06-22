@@ -2,10 +2,10 @@
 title: /seller *
 position: 1
 type: get
-description: Get the authenticated seller information.
+description: Get the authenticated user seller information.
 
 content_markdown: |-
-  Returns the authenticated seller information.
+  Returns the authenticated user seller account information.
 
 left_code_blocks:
   - code_block: |-
