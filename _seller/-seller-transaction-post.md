@@ -11,7 +11,7 @@ parameters:
       <em>Mandatory.</em>
 
 content_markdown: |-
-  Returns the new transaction information.
+  Returns the new transaction information. This will generate a unique address for each transaction.
 
 left_code_blocks:
   - code_block: |-
@@ -23,7 +23,6 @@ right_code_blocks:
   - code_block: |2-
       {
         "data": {
-          "id": "da78145f-2028-4eec-8009-5c9d9343d76d",
           "address": "ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL",
           "amount": 123.45678901,
           "fee": 0.61728394,
