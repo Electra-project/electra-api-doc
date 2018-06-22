@@ -16,8 +16,6 @@ content_markdown: |-
   - **PARTIAL**: One or multiple transactions have been broadcast and sent to this seller address but the balance
   doesn't match the required amount.
 
-  The `updatedAt` date can be used as confirmation date for the related transaction.
-
 left_code_blocks:
   - code_block: |-
       curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/seller/payment/ELPXhJueXfJKA7z3SNBuukxcQSeW2rCbUL
@@ -32,7 +30,8 @@ right_code_blocks:
           "amount": 123.45678901,
           "fee": 0.61728394,
           "feeRatio": 0.005,
-          "status": "PENDING",
+          "status": "CONFIRMED",
+          "confirmedAt": "2018-06-22T09:37:13.204Z",
           "createdAt": "2018-06-22T09:37:13.204Z",
           "updatedAt": "2018-06-22T09:37:13.204Z"
         }
