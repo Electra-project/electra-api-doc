@@ -2,10 +2,10 @@
 title: /seller/payment/:sellerAddressHash *
 position: 4
 type: post
-description: Get a seller transaction information.
+description: Get a seller payment information.
 
 content_markdown: |-
-  Returns a seller transaction information.
+  Returns a seller payment information.
 
   The `status` can be one of:
   - **PENDING**: No transaction to this seller address has not been broadcast.
