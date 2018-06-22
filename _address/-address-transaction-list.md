@@ -19,7 +19,8 @@ parameters:
       <em>Optional. Default to `"0"`.</em>
 
 content_markdown: |-
-  The transactions list is limited to 10 items per page and can't be customized.
+  The transactions list is limited to 10 items per page and sortedby date in descending order (from the newest to the
+  oldest). This can't be customized.
 
 left_code_blocks:
   - code_block: |-
