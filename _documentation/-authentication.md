@@ -63,14 +63,14 @@ content_markdown: |-
   In order to verify the `BAA_PASSWORD`, we will use it to check if this user is already registered on the API:
 
   ```bash
-  curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/user/FIRST_PURSE_ADDRESS_HASH
+  curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/user
   ```
 
   If this request returns a `HTTP/1.1 404 Not Found`, this means that you need to create a new user for this user since
   it has never been previously registered:
 
   ```bash
-  curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X POST https://api.electraproject.org/user/FIRST_PURSE_ADDRESS_HASH
+  curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X POST https://api.electraproject.org/user
   ```
 
   If the library you are using to make requests doesn't have specific settings to setup the Basic Authentication
