@@ -10,7 +10,7 @@ content_markdown: |-
   Electra API doesn't use OAuth authentication but a custom Basic Access Authentication related to the Comprehensive
   Accounts designed in the EIP-0001 in order to guarantee the anonymity of any Electra user.
 
-  You can read the [Authentication Background](#documentationauthentication_background) to get a better understanding of
+  You can read the [Authentication Background](#documentation-authentication_background) to get a better understanding of
   the process.
 
   The **first Purse account external address hash** is the username (ID) used in across any authenticated service
