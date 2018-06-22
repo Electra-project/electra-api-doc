@@ -22,7 +22,7 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "message": "ok"
+        "message": "Transaction broadcast."
       }
     title: Response
     language: json
