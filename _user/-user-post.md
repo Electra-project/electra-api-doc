@@ -5,7 +5,7 @@ type: post
 description: Register the autheticated user.
 
 content_markdown: |-
-  Create a new API entry for the authenticated user.
+  Creates a new API entry for the authenticated user.
 
 left_code_blocks:
   - code_block: |-
