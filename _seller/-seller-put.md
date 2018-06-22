@@ -1,6 +1,6 @@
 ---
 title: /seller *
-position: 2
+position: 3
 type: put
 description: Update the authenticated user seller account.
 
