@@ -8,29 +8,21 @@ content_markdown: |-
   Creates a new API entry as a seller for the authenticated user. This will also turn the related user entry `isSeller`
   property to `true`.
 
+  To cipher the CA Seller account private key, you need to:
+  1. Get use the `token` provided by the `GET /user` route response body.
+  2. Hash this token using SHA-3-256 to generate a `key`.
+  3. Cipher the CA Seller Account (`m/$44'/0'/3`) private key hexaecimal string with this `key` using AES-256 ECB.
+
 left_code_blocks:
   - code_block: |-
-      curl -d '{"company":"Support Ninjas Inc.","addressL1":"19 Manor Station St.","addressL2":"","addressL3":"","code":"95820","city":"Sacramento","area":"2018-06-22T09:37:13.204Z","country":"2018-06-22T09:37:13.204Z","email":"contact@example.com","website":"https://example.com"}' -X POST https://api.electraproject.org/seller
+      curl -d '{"sellerAccountPrivateKeyX": "CIPHERED_SELLER_ACCOUNT_PRIVATE_KEY"}' -X POST https://api.electraproject.org/seller
     title: curl
     language: bash
 
 right_code_blocks:
   - code_block: |2-
       {
-        "data": {
-          "company": "Support Ninjas Inc.",
-          "addressL1": "19 Manor Station St.",
-          "addressL2": "",
-          "addressL3": "",
-          "code": "95820",
-          "city": "Sacramento",
-          "area": "2018-06-22T09:37:13.204Z",
-          "country": "2018-06-22T09:37:13.204Z",
-          "email": "contact@example.com",
-          "website": "https://example.com",
-          "createdAt": "2018-06-22T09:37:13.204Z",
-          "updatedAt": "2018-06-22T09:37:13.204Z"
-        }
+        "message": "Seller created."
       }
     title: Response
     language: json
