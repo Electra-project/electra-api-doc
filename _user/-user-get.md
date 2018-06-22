@@ -9,7 +9,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -X GET https://api.electraproject.org/user
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -X GET https://api.electraproject.org/user
     title: curl
     language: bash
 
