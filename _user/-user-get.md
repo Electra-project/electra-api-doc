@@ -1,5 +1,5 @@
 ---
-title: /user/:purseHash *
+title: /user *
 position: 1
 type: get
 description: Get the authenticated user information.
