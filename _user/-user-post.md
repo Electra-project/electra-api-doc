@@ -20,6 +20,7 @@ right_code_blocks:
           "purseHash": "ENadfBRVWkm17ni9AKmmAEvhUG54qJjB8J",
           "token": "",
           "hasAutoUpdate": true,
+          "isSeller": true,
           "isSynchronized": true,
           "twitterUsername": "",
           "createdAt": "2018-06-22T09:37:13.204Z",
