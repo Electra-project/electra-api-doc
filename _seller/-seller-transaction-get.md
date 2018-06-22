@@ -8,10 +8,13 @@ content_markdown: |-
   Returns a seller transaction information.
 
   The `status` can be one of:
-  - **PENDING**: The payment has not been broadcast.
-  - **BROADCAST**: The payment has been broadcast and is in the transactions pool.
-  - **UNCONFIRMED**: The payment has at least one confirmation but less than 10 confirmations.
-  - **CONFIRMED**: The payment has 10 confirmations or more.
+  - **PENDING**: No transaction to this seller address has not been broadcast.
+  - **BROADCAST**: The transaction(s) to this seller address have been broadcast and are in the transactions pool.
+  - **UNCONFIRMED**: All of the transaction(s) to this seller address have at least one confirmation and at least one of
+  them has less than 10 confirmations.
+  - **CONFIRMED**:  All of the transaction(s) to this seller address have at least 10 confirmations.
+  - **PARTIAL**: One or multiple transactions have been broadcast and sent to this seller address but the balance
+  doesn't match the required amount.
 
   The `updatedAt` date can be used as confirmation date for the related transaction.
 
