@@ -23,7 +23,7 @@ collections:
     title: Transactions
     position: 3
   user:
-    title: User
+    title: Users
     position: 4
 plugins:
   - jekyll-sitemap
