@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Electra API
-description: Electra API documentation.
+title: Electra API Documentation
+description: Electra RESTful API documentation.
 url: https://electra-api-doc.herokuapp.com
 google_analytics_key:
 permalink: pretty
