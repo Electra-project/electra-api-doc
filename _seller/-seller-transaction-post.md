@@ -4,6 +4,12 @@ position: 5
 type: post
 description: Generate a new transaction linked to the user seller account.
 
+parameters:
+  - name: amount
+    content: |-
+      Positive float number with a maximum of 8 decimals.<br>
+      <em>Mandatory.</em>
+
 content_markdown: |-
   Returns the new transaction information.
 
