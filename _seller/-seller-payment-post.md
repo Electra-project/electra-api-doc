@@ -1,6 +1,6 @@
 ---
-title: /seller/transaction *
-position: 5
+title: /seller/payment *
+position: 6
 type: post
 description: Generate a new transaction linked to the user seller account.
 
@@ -15,7 +15,7 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -d '{"amount":123.45678901}' -X POST https://api.electraproject.org/seller/transaction
+      curl -u FIRST_PURSE_ADDRESS_HASH:BAA_PASSWORD -d '{"amount":123.45678901}' -X POST https://api.electraproject.org/seller/payment
     title: curl
     language: bash
 
