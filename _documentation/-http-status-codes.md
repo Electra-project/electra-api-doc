@@ -37,12 +37,9 @@ content_markdown: |-
   {: .warning }
 
 left_code_blocks:
-  - code_block: |-
-      curl https://api.electraproject.org/address/EHFF1iKaqK2bY81SghZz6YxQTKgx47JjDE -I -H "X-Version: 1.0"
-      HTTP/1.1 200 OK
-      X-Version: v1.0
-    title: curl
-    language: bash
+  - code_block:
+    title:
+    language:
 
 right_code_blocks:
   - code_block:
