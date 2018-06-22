@@ -1,6 +1,6 @@
 ---
 title: /seller/payment *
-position: 6
+position: 5
 type: post
 description: Generate a new transaction linked to the user seller account.
 
