@@ -2,7 +2,7 @@
 title: /user *
 position: 2
 type: post
-description: Register the autheticated user.
+description: Register the authenticated user.
 
 content_markdown: |-
   Creates a new API entry for the authenticated user.
