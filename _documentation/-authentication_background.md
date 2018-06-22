@@ -1,6 +1,6 @@
 ---
 title: Authentication Background
-position: 4.1
+position: 6
 
 parameters:
   - name:
