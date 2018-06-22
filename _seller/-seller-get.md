@@ -25,6 +25,8 @@ right_code_blocks:
           "city": "Sacramento",
           "area": "2018-06-22T09:37:13.204Z",
           "country": "2018-06-22T09:37:13.204Z",
+          "email": "contact@example.com",
+          "website": "https://example.com",
           "createdAt": "2018-06-22T09:37:13.204Z",
           "updatedAt": "2018-06-22T09:37:13.204Z"
         }
